@@ -1,0 +1,64 @@
+.info-container {
+    background-color: #1A1B21;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-info > h1 {
+    padding-top: 10px;
+}
+
+.title-info > * {
+    margin: 0;
+    text-align: center;
+}
+
+.title-info-job {
+    color: #F3BF99;
+    padding-bottom: 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.email-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 365px;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: 550;
+    font-family: Inter;
+    font-size: 25px;
+}
+
+.email-button:hover {
+    background-color: #E0E0E0;
+    transition: 250ms;
+    height: 55px;
+    width: 380px;
+}
+
+.email-icon {
+    margin-right: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.main-info {
+    width: 90%;
+    margin: 0;
+}
+
+.main-info > p {
+    color: #DCDCDC;
+}

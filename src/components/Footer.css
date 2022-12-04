@@ -1,0 +1,27 @@
+.footer {
+    background-color: #161619;
+    width: 400px;
+    height: 100px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+}
+
+.footer-icons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons > * {
+    width: 50px;
+    height: 50px;
+    color: #918E9B;
+}
+
+.footer-icons > *:hover {
+    color: #fff;
+    transition: 250ms;
+}
